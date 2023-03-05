@@ -7,9 +7,17 @@ export default {
     notifications: {
       releases: false,
     },
-  },
-  head: {
-    favicon: favicon,
+    translations: {
+      en: {
+        'app.components.LeftMenu.navbrand.title': 'Dashboard'
+      },
+      ptBR: {
+        'app.components.LeftMenu.navbrand.title': 'Painel'
+      }
+    },
+    head: {
+      favicon: favicon,
+    },
   },
   bootstrap() {
   },
