@@ -11,7 +11,7 @@ export default {
       en: {
         'app.components.LeftMenu.navbrand.title': 'Dashboard'
       },
-      ptBR: {
+      'pt-BR': {
         'app.components.LeftMenu.navbrand.title': 'Painel'
       }
     },
