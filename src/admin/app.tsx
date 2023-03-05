@@ -3,15 +3,14 @@ import favicon from './extensions/favicon.png'
 export default {
   config: {
     locales: ['pt-BR'],
-    tutorial: false,
+    tutorials: false,
     notifications: {
-      release: false,
+      releases: false,
     },
   },
   head: {
     favicon: favicon,
   },
-  bootstrap(app) {
-    console.log(app);
+  bootstrap() {
   },
 };
