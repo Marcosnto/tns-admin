@@ -1,8 +1,12 @@
 {
   "extends": "@strapi/typescript-utils/tsconfigs/admin",
+  "compilerOptions": {
+    "composite": true
+  },
   "include": [
     "../plugins/**/admin/src/**/*",
-    "./"
+    "./",
+    "../index.d.ts",
   ],
   "exclude": [
     "node_modules/",
