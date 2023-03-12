@@ -32,6 +32,10 @@
     "content": {
       "type": "richtext",
       "required": true
+    },
+    "author": {
+      "type": "string",
+      "required": true
     }
   }
 }
